@@ -1,1 +1,273 @@
 # DoviE-Solutions-Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DoviE-Solutions | Smart Business & Agency Solutions</title>
+  <meta name="description" content="DoviE-Solutions provides smart digital solutions, business services, and licensed financial agency services including M-Pesa, KCB, Equity, and Cooperative Bank." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0b5ed7;
+      --secondary: #0dcaf0;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--dark), var(--primary));
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      z-index: 1000;
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    section {
+      padding: 80px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      transition: transform .3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background: #084298;
+    }
+
+    footer {
+      background: var(--dark);
+      color: #cbd5f5;
+      padding: 40px 20px;
+    }
+
+    footer .grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    footer h4 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    footer a {
+      color: #cbd5f5;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    footer a:hover {
+      color: var(--secondary);
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="home">
+    <h1>DoviE-Solutions</h1>
+    <p>Smart Digital, Business & Financial Agency Solutions designed to help businesses grow, scale, and operate efficiently.</p>
+    <a href="#services" class="btn">Explore Our Services</a>
+  </header>
+
+  <nav>
+    <div class="container">
+      <strong>DoviE-Solutions</strong>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#agencies">Agencies</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p style="max-width:800px; margin-top:15px;">
+        DoviE-Solutions is a startup company focused on delivering reliable service solutions that empower businesses and individuals. We combine technology, data, and financial services to create efficient systems that solve real-world problems.
+      </p>
+    </div>
+  </section>
+
+  <section id="services" style="background:#f1f5f9;">
+    <div class="container">
+      <h2>Our Service Solutions</h2>
+      <div class="grid" style="margin-top:40px;">
+        <div class="card">
+          <h3>Digital & IT Solutions</h3>
+          <p>Web development, system design, automation, POS systems, and scalable digital platforms.</p>
+        </div>
+        <div class="card">
+          <h3>Business Support Services</h3>
+          <p>Data analysis, reporting, transcription, documentation, and operational optimization.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting & Strategy</h3>
+          <p>Business process improvement, system planning, and technology advisory services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agencies">
+    <div class="container">
+      <h2>Our Financial Agencies</h2>
+      <div class="grid" style="margin-top:40px;">
+        <div class="card">
+          <h3>M-Pesa Agency</h3>
+          <p>Cash deposits & withdrawals, customer assistance, and mobile money services.</p>
+        </div>
+        <div class="card">
+          <h3>KCB Agent Banking</h3>
+          <p>Account services, cash transactions, and banking support.</p>
+        </div>
+        <div class="card">
+          <h3>Equity Bank Agent</h3>
+          <p>Reliable agent banking services for individuals and businesses.</p>
+        </div>
+        <div class="card">
+          <h3>Cooperative Bank Agent</h3>
+          <p>Secure and efficient cooperative banking agency services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background:#f1f5f9;">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for partnerships, services, or inquiries.</p>
+      <div style="margin-top:20px;">
+        <p><strong>Email:</strong> info@doviesolutions.com</p>
+        <p><strong>Phone:</strong> +254 7XX XXX XXX</p>
+        <p><strong>Location:</strong> Kenya</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div>
+          <h4>DoviE-Solutions</h4>
+          <p>Smart solutions for modern businesses.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#agencies">Agencies</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="#">Digital Solutions</a>
+          <a href="#">Business Support</a>
+          <a href="#">Consulting</a>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 DoviE-Solutions. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
